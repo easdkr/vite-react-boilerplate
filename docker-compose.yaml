@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  vite-test:
+    container_name: vite-test
+    build: .
+    ports:
+      - '10322:80'
